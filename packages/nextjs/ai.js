@@ -1,6 +1,6 @@
 const fetch = require("node-fetch");
 
-const API = "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";
+const API = "";
 
 async function query(data) {
     try {
