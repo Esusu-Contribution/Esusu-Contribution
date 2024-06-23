@@ -1,21 +1,35 @@
-# 🏗 Scaffold-ETH 2
+# Esusu
 
-<h4 align="center">
-  <a href="https://docs.scaffoldeth.io">Documentation</a> |
-  <a href="https://scaffoldeth.io">Website</a>
-</h4>
+We build a project where people can achieve their goals through their financial aid. Users save stablecoins on our platform for a certain purpose which they will put for a certain number of days or a certain number of amounts  once they reach their target for their savings they can withdraw from the website. This Dapp is built to annex the power of contributions or savings. We have the main system implemented which is the child savings and the target savings. The child savings allows parents to initiate deposits for their children, which children can only withdraw. The other type of saving is a target saving where users set a target for certain purposes maybe to pay their school fees, get a new laptop or pay rent. Users set a target when they reach the target they can withdraw their stablecoin from the dapp.
 
-🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
 
-⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, Viem, and Typescript.
+### The problem it solves
+Empowering Users: By allowing users to save stablecoins for specific purposes, the Dapp empowers individuals to take control of their financial goals and actively work towards achieving them. This autonomy can lead to a greater sense of financial responsibility and accomplishment.
+Encouraging Saving Habits: The platform encourages users to develop saving habits by providing a structured system for setting saving targets.
+Secure and Transparent Platform: The Dapp ensures security and transparency in financial transactions by leveraging blockchain technology. Users can trust that their savings are secure and that the process of reaching their goals is transparent and verifiable.
+Child Savings: By offering a feature for parents to initiate deposits for their children, the Dapp encourages early financial education and savings habits in children. It also provides a secure platform for parents to save money for their children's future needs, fostering financial security and responsibility from a young age.
 
-- ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
-- 🪝 **[Custom hooks](https://docs.scaffoldeth.io/hooks/)**: Collection of React hooks wrapper around [wagmi](https://wagmi.sh/) to simplify interactions with smart contracts with typescript autocompletion.
-- 🧱 [**Components**](https://docs.scaffoldeth.io/components/): Collection of common web3 components to quickly build your frontend.
-- 🔥 **Burner Wallet & Local Faucet**: Quickly test your application with a burner wallet and local faucet.
-- 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with the Ethereum network.
 
-![Debug Contracts tab](https://github.com/scaffold-eth/scaffold-eth-2/assets/55535804/b237af0c-5027-4849-a5c1-2e31495cccb1)
+Technologies I used
+Next js
+Wagmi
+Solidity
+
+### Milestone: Launch of MVP (Minimum Viable Product)
+
+Objective: The primary aim of this milestone is to launch the Minimum Viable Product (MVP) of the Dapp, providing users with core functionalities to start saving towards their financial goals.
+
+### Key Deliverables:
+
+Wallet Integration: Integrate wallets to allow users to deposit stablecoins into their accounts on the platform.
+Target Savings Feature: Develop the feature that enables users to set specific financial goals (e.g., saving for education, purchasing a laptop) and track their progress towards these goals. 
+Child Savings Feature: Implement the functionality for parents to initiate deposits for their children's addresses, with parent-restricted withdrawal permissions. 
+Withdrawal System: Build a secure withdrawal system that allows users to withdraw their savings once they reach their target goals or when needed. 
+User Interface (UI) Design: Design an intuitive and user-friendly interface that facilitates easy navigation and interaction with the platform. 
+Security Measures: Implement robust security measures to protect user data and ensure the safety of financial transactions, leveraging blockchain technology where applicable.
+Testing and Bug Fixing: Conduct thorough platform testing to identify and resolve any bugs or issues, ensuring a smooth user experience.
+
+
 
 ## Requirements
 
@@ -27,7 +41,7 @@ Before you begin, you need to install the following tools:
 
 ## Quickstart
 
-To get started with Scaffold-ETH 2, follow the steps below:
+To get started with Esusu, follow the steps below:
 
 1. Clone this repo & install dependencies
 
@@ -59,23 +73,6 @@ This command deploys a test smart contract to the local network. The contract is
 yarn start
 ```
 
-Visit your app on: `http://localhost:3000`. You can interact with your smart contract using the `Debug Contracts` page. You can tweak the app config in `packages/nextjs/scaffold.config.ts`.
 
-**What's next**:
+## This project does not start here, we had to move it to an organization, to kick-start our project journey. 
 
-- Edit your smart contract `YourContract.sol` in `packages/hardhat/contracts`
-- Edit your frontend homepage at `packages/nextjs/app/page.tsx`. For guidance on [routing](https://nextjs.org/docs/app/building-your-application/routing/defining-routes) and configuring [pages/layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts) checkout the Next.js documentation.
-- Edit your deployment scripts in `packages/hardhat/deploy`
-- Edit your smart contract test in: `packages/hardhat/test`. To run test use `yarn hardhat:test`
-
-## Documentation
-
-Visit our [docs](https://docs.scaffoldeth.io) to learn how to start building with Scaffold-ETH 2.
-
-To know more about its features, check out our [website](https://scaffoldeth.io).
-
-## Contributing to Scaffold-ETH 2
-
-We welcome contributions to Scaffold-ETH 2!
-
-Please see [CONTRIBUTING.MD](https://github.com/scaffold-eth/scaffold-eth-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-ETH 2.
